@@ -1,10 +1,10 @@
 apiVersion: skaffold/v4beta8
 kind: Config
 metadata:
-  name: web
+  name: 
 build:
   artifacts:
-    - image: skaffold-buildpacks-node
+    - image: welcome-to-docker
       context: .
       docker:
         dockerfile: ./deploy/Dockerfile
